@@ -1,17 +1,3 @@
-# 🚀 Roadmap de Estudos: C# ao Backend com ASP.NET
-
-## ✅ Tópicos Estudados
-- [x] Relembrar conceitos C# básico
-- [x] POO
-- [ ] Estrutura de dados
-- [ ] Conexão ao DB (ADO.NET)
-- [x] Entity Framework
-- [x] ASP.NET Core
-- [ ] API (Web API REST)
-- [ ] Docker
-
----
-
 ## 📘 Conceitos Fundamentais
 
 ### 🔹 POO (Programação Orientada a Objetos)
