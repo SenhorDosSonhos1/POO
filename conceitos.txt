@@ -1,0 +1,76 @@
+Estudar Estrutura de dados
+Relembrar conceitos C# basico
+POO
+Conecxão ao DB(ADO.NET)
+Entity Framework
+ASP.NET Core
+API
+Docker
+
+
+Conceitos:
+    Poo é um paradigma de programação que organiza o software em unidades chamadas objetos.
+
+Caracteristicas:
+        Reutilização de codigo; 
+        Manutenção;
+        Encapsulamento;
+
+Pilares:
+    Abstração;
+    Encapsulamento;
+    Herança;
+
+//Classe: classe é um molde para criar objetos.
+// De uma classe podemos criar várias abstração particularidades dele.
+// Ex: classe carro e pessoa. Cada pessoa tem suas individualidades.
+
+
+//Atributos: São caracteristicas contidas nas classes.
+
+//Métodos: São funções/Ações que um objeto pode executar.
+
+//Objeto: São criados a partir das classes(moldes).
+
+//Encapsulamento: É um dos pilares da Poo, atravês dele é possivel trabalhar com a visibilidade de atributos e métodos.
+    //Caracteristicas: Ocultar informações; Segurança; Facilidade de manutenção;
+
+    //Modificadores de acesso: 
+        // public: atributos e métodos visiveis para qualquer classe
+        // private: atributos e metodos visiveis apenas na classe onde são criados.
+        // protected: atributos e métodos disponiveis na classe onde são criados ou herdados.
+
+        Métodos get e set;
+            Get: Esse método é responsavel por extrair os valores de atributos privados.
+            Set: Esse métodos é responsavel por atribuir valores nos atributos privados.
+Contructor:
+    É um método especial que é chamado automaticamente quando um objeto de uma classe é criado.
+    ele é usado para inicializar o estado do objeto.
+
+Atributos e métodos estáticos:
+    atributos e métodos estaticos são funcionalidades da propria classe ne que não precisam ser instanciado para serem usados
+
+
+Herança:
+    Herança é um conceito fundamento da poo que permite que uma classe herde caracteristicas de outra classe.
+
+Polimorfismo:
+	É um conceito fundamental da programação orientada a objetos que se refere á capacidade de objetos de diferentes classes
+	responderem de maneira única a mensagens idênticas, invocadas através de uma interface ou método.
+
+	sobrescrita: Ocorre quando uma classe derivada redefine um método jã definido em sua classe base.
+	sobrecarga: Refere-se  a capacidade de ter varios métodos com o mesmo nome, mas com listas de parametros diferentes em uma unica classe
+
+Abstração:
+	A abstração é um principio fundamental da POO  que envolve a identificação e a modelagem das caracteristicas e comportamentos essenciavis de um objeto.
+	Ela não pode ser instanciada.
+
+Interface:
+	É como uma classe abstrata que contém apenas membros abstratos
+	
+	Dica: no c# a boa pratica pede que toda interface inicie coma letra I: IPessoa, IAnimal
+	
+	Caracteristicas: 
+		Apenas metodos obrigatorios
+		No c# uma classe nao pode herdar mais de uma classe, mas no interface podemos implementar varias.
+		Padronização de projtos.

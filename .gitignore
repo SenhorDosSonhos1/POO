@@ -1,0 +1,45 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.config.user
+*.bak
+*.ide
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.tmp
+*.log
+*.ilk
+*.lib
+*.obj
+*.out
+*.aps
+*.ncb
+*.resource
+*.sdf
+*.tlog
+_UpgradeReport_Files/
+
+# NuGet
+*.nupkg
+packages/
+.config/dotnet-tools.json
+.config/dotnet-tools.settings.json
+
+# Ferramentas de Teste
+TestResults/
+
+# Rider (IDE alternativa para .NET)
+.idea/
+
+# Outros
+Thumbs.db
+
+Projeto/

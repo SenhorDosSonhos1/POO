@@ -1,0 +1,5 @@
+interface IBonus
+{
+    void PremioFaltas();
+    
+}
